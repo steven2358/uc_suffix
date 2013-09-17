@@ -1,0 +1,7 @@
+; $Id$
+name = Price Suffix
+description = Add a custom suffix to Ubercart prices.
+package = "Ubercart - extra"
+core = 6.x
+dependencies[] = uc_product
+version = "6.x-0.1"
