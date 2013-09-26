@@ -82,6 +82,7 @@ function uc_suffix_views_handlers() {
 
 function uc_suffix_init() {
   global $conf;
+  // Add the "suffix string" setting as a translatable variable.
   $conf['i18n_variables'][] = 'uc_suffix_string';
 }
 
